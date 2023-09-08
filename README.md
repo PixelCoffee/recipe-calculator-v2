@@ -1,1 +1,1 @@
-"# recipe-calculator-v2" 
+Default readme content
