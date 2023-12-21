@@ -1,0 +1,35 @@
+@import '@/styles/globalVariables.scss';
+
+.searchContainer{
+    padding: 20px $containerPadding;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.inputWrapper{
+    position: relative;
+}
+
+.searchContainer__input{
+    width: 500px;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.searchContainer__icon{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.searchContainer__toggleButton{
+    margin-left: 20px;
+    align-self: center;
+    box-shadow: 0px 2px 5px 0px #000000;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
