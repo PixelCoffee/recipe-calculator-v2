@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from 'components/header';
+import Header from '@/components/header/header';
 
 import styles from '@/pages/index.module.scss'
 
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header/> 
+        <Header/>
        
       </main>
 
