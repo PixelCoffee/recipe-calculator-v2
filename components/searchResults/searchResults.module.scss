@@ -1,0 +1,53 @@
+@import '@/styles/globalVariables.scss';
+
+
+.searchContainer__results{
+    background-color: rgba(#000, 0.3);
+    padding: 20px 20px;
+    margin: 0 $containerPadding;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searchContainer__result{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 0 20px;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(#fff, 0.1);
+    border: 1px solid #fff;
+
+    &:first-of-type{
+        margin-left: 0;
+    }
+}
+
+.searchContainer__resultTitle{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;    
+    font-weight: 600;
+}
+
+.searchContainer__resultGridSize{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: white;
+}
+
+.searchResult__icon{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
