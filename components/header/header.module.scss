@@ -1,0 +1,11 @@
+@import '@/styles/globalVariables.scss';
+
+.title{
+    background-color: rgba(#000, 0.3);
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 10px $containerPadding;
+    text-align: left;
+    font-size: $headingSize;
+}
