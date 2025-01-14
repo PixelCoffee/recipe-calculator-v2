@@ -9,7 +9,7 @@ import styles from './index.module.scss'
 
 export default function  () {
   return (
-    <div className={styles.container}>
+    <div className={styles.customContainer}>
       <Head>
         <title>Recipe Calculator App</title>
         <link rel="icon" href="/favicon.ico" />
